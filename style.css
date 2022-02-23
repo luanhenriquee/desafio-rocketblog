@@ -1,0 +1,263 @@
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+#home {
+  background-color: var(--purple-bg);
+  height: 101vh;
+  width: 100%;
+  padding: 4rem 8.5rem 0 8.5rem;
+  border-bottom: 5px solid var(--green);
+}
+
+#navbar {
+  width: 100%;
+  color: var(--white);
+}
+
+#navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 12.0rem;
+}
+
+#navbar-items {
+  display: flex;
+  list-style: none;
+}
+
+#navbar-items li {
+  font-family: 'Roboto', sans-serif;
+  font-style: 400;
+  font-size: 1.12rem;
+  line-height: 1.31rem;
+  padding-right: 32px;
+}
+
+#navbar-items li#active {
+  font-weight: 700;
+  border-left: 2px solid var(--green);
+  padding-left: 3px;
+}
+
+#search {
+  width: 300px;
+  display: flex;
+}
+
+#search input {
+  width: 100%;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.25));
+  background-color: var(--dark-bg);
+  color: var(--light-purple);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.02rem;
+  padding: 14px 5px 14px 25px;
+}
+
+input:focus {
+  box-shadow: 0;
+  outline: 0;
+}
+
+#search button {
+  border: none;
+  width: 70px;
+  height: 44px;
+  background-color: var(--button-bg);
+  border-radius: 0 4px 4px 0;
+  z-index: 1;
+  padding: 10px;
+}
+
+#article {
+  width: 100%;
+  height: 90%
+}
+
+#article-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.textgroup {
+  width: 35.6rem;
+  height: 19.4rem;
+}
+
+.textgroup h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.37rem;
+  color: #9e6dc2;
+}
+
+.textgroup p {
+  margin-top: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.68rem;
+  color: var(--light-purple);
+}
+
+.featured-image {
+  width: 35.6rem;
+  height: 21.6rem;
+}
+
+.featured-image img {
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0, 0.25));
+  border-radius: 8px;
+}
+
+#link {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+#link a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.12rem;
+  line-height: 1.68rem;
+  color: #9e6dc2;
+  display: flex;
+  align-items: center;
+}
+
+#link a img {
+  margin-left: 8px;
+}
+
+#contents {
+  width: 100%;
+  height: 100vh;
+  padding: 4rem 8.37rem 0 8.5rem;
+  background-color: var(--light-purple)
+}
+
+#contents-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 8.12rem;
+  justify-items: center;
+}
+
+#post-1 #date {
+  margin-top: 1rem;
+}
+
+#post-1 #title {
+  margin-top: 1rem;
+}
+
+#post-1 #text {
+  margin-top: 1rem;
+}
+
+#side-post1 {
+  margin-bottom: 1.5rem;
+}
+
+#retangle {
+  border: 1px solid #f2e7fa;
+}
+
+#side-post2 {
+  margin-top: 1.5rem;
+}
+
+.content-date {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.17rem;
+}
+
+.content-title {
+  margin-top: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: var(--purple-bg);
+}
+
+.content-text {
+  margin-top: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#contents-container2 {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1.8rem;
+  padding-bottom: 4.20rem;
+  justify-items: center;
+}
+
+
+#post-date {
+  margin-top: 1rem;
+}
+
+#content {
+  width: 29.5rem;
+  height: 25.8rem;
+}
+
+#post-1 {
+  width: 35.5rem;
+  height: 34.1rem;
+}
+
+#post-2 {
+  width: 23.1rem;
+  height: 28.6rem;
+}
+
+#post-3 {
+  width: 23.1rem;
+  height: 28.6rem;
+}
+
+#post-4 {
+  width: 23.1rem;
+  height: 28.6rem;
+}
