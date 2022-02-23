@@ -1,5 +1,5 @@
 <img alt="Desafio RocketBlog" src="https://cdn.discordapp.com/attachments/943731157575532575/946096997683843102/unknown.png" width="500"/>
-<p>Confira o resultado do desafio em: <a href="https://prodigy07.github.io/desafio-rocketnews" target="_blank">prodigy07.github.io/desafio-rocketblog</a></p>
+<p>Confira o resultado do desafio em: <a href="https://prodigy07.github.io/desafio-rocketblog/" target="_blank">prodigy07.github.io/desafio-rocketblog/</a></p>
 
 <hr>
 
