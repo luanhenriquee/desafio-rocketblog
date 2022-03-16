@@ -20,3 +20,7 @@ Neste desafio você irá desenvolver uma homepage para um blog.
     Layou do desafio no figma <a href="https://www.figma.com/file/r4CsL6MPTAvE7EvJXjhFK4/DD-RocketBlog/duplicate" target="_blank">link</a>
   </p>
 </div>
+
+<div align="center">
+  <small>Desenvolvido com 💜 por Luan Henrique</small>
+</div>
